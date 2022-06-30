@@ -1,0 +1,14 @@
+.loadingComponent {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--main-background-color);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loadingComponent_title {
+    font-size: 30px;
+    font-weight: bold;
+}

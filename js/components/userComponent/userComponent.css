@@ -1,0 +1,80 @@
+.userComponent {
+    display: flex;
+    background-color: #c2c6c9;
+    margin-bottom: 5px;
+    width: calc(100% - 10px);
+    margin: 5px 0px 0px 5px;
+    border-radius: 3px;
+}
+
+.userComponent_col1 {
+    display: flex;
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+    padding: 5px 5px 0px 5px;
+}
+
+.userComponent_col2 {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - var(--avatar-size));
+    height: 100%;
+    padding: 5px 5px 10px 5px;
+}
+
+.userComponent_avatar {
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+    object-fit: cover;
+}
+
+.userComponent_imageContainer {
+    border-color: var(--avatar-border-color);
+    border-style: solid;
+    border-radius: 3px;
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+}
+
+.userComponent_name {
+    font-size: 18px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+.userComponent_username {
+    font-size: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+.userComponent_email {
+    font-size: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+.userComponent_phone {
+    font-size: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+.userComponent_website {
+    font-size: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-right: 20px;
+    margin-bottom: 5px;
+
+}

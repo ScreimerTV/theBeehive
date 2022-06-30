@@ -1,0 +1,68 @@
+/**
+* @name style.css
+* @file Add a small description for this file.
+* @author David Gutiérrez wwwdcalderon@gmail.com
+* @version 1.0.0
+*/
+::-webkit-scrollbar {
+    display: none;
+}
+
+:root {
+    --primary-color: #3a474e;
+    --secondary-color: #E15241;
+    --main-background-color: rgb(255, 252, 252);
+    --nav-bar-height: 68px;
+    --background-light-gray: #ECEFF1;
+    --background-gray: #D1D8D8;
+    --owner-bg: rgb(159, 210, 246);
+    --avatar-size: 100px;
+    --avatar-border-color: gray;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: var(--primary-color)
+}
+
+h2 {
+    color: var(--secondary-color)
+}
+
+button {
+    min-width: 60px;
+    border-style: none;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
+    font-weight: bold;
+    color: white;
+    background-color: var(--secondary-color);
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+p {
+    user-select: none;
+}
+
+div {
+    user-select: none;
+}
+
+.hide {
+    display: none !important;
+}
+
+.owner {
+    background-color: var(--owner-bg) !important;
+}

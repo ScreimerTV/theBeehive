@@ -1,0 +1,36 @@
+.navbarComponent {
+    position: fixed;
+    background-color: var(--primary-color);
+    width: 100%;
+    height: var(--nav-bar-height);
+    top: 0px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbarComponent_backBtn {
+    width: 40px;
+    margin-top: 10px;
+}
+
+.navbarComponent_backBtnIcon {
+    width: 50%;
+    height: auto;
+    margin-left: 20px;
+    /* Esta la agregue yo porque a mi si se me pegaba el boton  */
+}
+
+.navbarComponent_addBtn {
+    width: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+.navbarComponent_addBtnIcon {
+    width: 100%;
+    height: auto;
+    /* Esta la agregue yo porque a mi si se me pegaba el boton  */
+}
